@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-subtle overflow-hidden">
       {/* Key Visual Background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] lg:w-[1100px] lg:h-[1100px] opacity-20 animate-float">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/4 w-[900px] h-[900px] lg:w-[1100px] lg:h-[1100px] opacity-20 animate-float">
           <img
             src={heroVisual}
             alt=""

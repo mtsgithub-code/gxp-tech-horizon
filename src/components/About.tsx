@@ -5,10 +5,10 @@ const About = () => {
   const { t } = useLanguage();
 
   const stats = [
-    { value: t("about.stat1.value"), label: t("about.stat1.label") },
-    { value: t("about.stat2.value"), label: t("about.stat2.label") },
     { value: t("about.stat3.value"), label: t("about.stat3.label") },
     { value: t("about.stat4.value"), label: t("about.stat4.label") },
+    { value: t("about.stat2.value"), label: t("about.stat2.label") },
+    { value: t("about.stat1.value"), label: t("about.stat1.label") },
   ];
 
   const values = [

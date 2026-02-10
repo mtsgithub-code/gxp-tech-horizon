@@ -17,8 +17,8 @@ const translations: Record<string, Record<Language, string>> = {
   "nav.brandName": { en: "GXP Investment", zh: "GXP 投资咨询" },
 
   // Hero
-  "hero.badge": { en: "Shaping Global Value", zh: "塑造全球价值" },
-  "hero.title1": { en: "Shaping", zh: "塑造" },
+  "hero.badge": { en: "Bridge Digital Nations", zh: "连接数字国度" },
+  "hero.title1": { en: "Shaping", zh: "创造" },
   "hero.title2": { en: "Global Value", zh: "全球价值" },
   "hero.subtitle": {
     en: "Pioneering global digital technology cooperation and industrial investment — connecting tech enterprises to international markets, and global partners to the Digital Economy.",
