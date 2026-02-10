@@ -17,12 +17,12 @@ const translations: Record<string, Record<Language, string>> = {
   "nav.brandName": { en: "GXP Investment", zh: "GXP 投资咨询" },
 
   // Hero
-  "hero.badge": { en: "Digital Technology Cooperation Across Nations", zh: "国家间数字科技合作" },
-  "hero.title1": { en: "Bridging", zh: "连接" },
-  "hero.title2": { en: "Digital Nations", zh: "数字世界" },
+  "hero.badge": { en: "Shaping Global Value", zh: "塑造全球价值" },
+  "hero.title1": { en: "Shaping", zh: "塑造" },
+  "hero.title2": { en: "Global Value", zh: "全球价值" },
   "hero.subtitle": {
-    en: "Pioneering inter-governmental digital technology cooperation and industrial investment — connecting Chinese tech enterprises to global markets, and international partners to Digital China.",
-    zh: "引领国家间数字科技合作与产业投资——助力中国科技企业全球化，连接海外政府与企业融入数字中国成长。",
+    en: "Pioneering global digital technology cooperation and industrial investment — connecting tech enterprises to international markets, and global partners to the Digital Economy.",
+    zh: "引领全球数字科技合作与产业投资——助力科技企业走向国际市场，连接全球合作伙伴共享数字经济成长。",
   },
   "hero.cta1": { en: "Explore Our Services", zh: "探索我们的服务" },
   "hero.cta2": { en: "Learn More", zh: "了解更多" },
@@ -30,33 +30,33 @@ const translations: Record<string, Record<Language, string>> = {
 
   // About
   "about.label": { en: "About Us", zh: "关于我们" },
-  "about.title": { en: "Inter-Governmental Digital Cooperation", zh: "国家间数字科技合作" },
+  "about.title": { en: "Global Digital Cooperation", zh: "全球数字科技合作" },
   "about.description": {
-    en: "GXP specializes in inter-governmental digital technology cooperation and industrial investment. Our unique strength lies in facilitating high-level international exchanges in economy, trade, technology, culture, and education — driving cross-border cooperation projects that shape the global digital landscape.",
-    zh: "GXP专注于国家间数字科技合作与产业投资。我们的独特优势在于促进国际国内高级别经贸、科技、文化、教育交流与国际合作项目，构建全球数字化发展的合作桥梁。",
+    en: "Founded in 2014, GXP Investment Consulting Firm specializes in global digital technology cooperation and industrial investment. Our unique strength lies in facilitating high-level international exchanges in economy, trade, technology, culture, and education — driving cross-border cooperation projects that shape the global digital landscape.",
+    zh: "GXP Investment Consulting Firm成立于2014年，专注于全球数字科技合作与产业投资。我们的独特优势在于促进国际国内高级别经贸、科技、文化、教育交流与国际合作项目，构建全球数字化发展的合作桥梁。",
   },
   "about.stat1.value": { en: "$1B+", zh: "10亿+" },
   "about.stat1.label": { en: "Outbound Investment Facilitated", zh: "美元对外投资促成" },
   "about.stat2.value": { en: "100+", zh: "100+" },
   "about.stat2.label": { en: "Countries & Regions Covered", zh: "国家地区深入合作" },
-  "about.stat3.value": { en: "4", zh: "4" },
-  "about.stat3.label": { en: "Continents Active", zh: "大洲深度布局" },
+  "about.stat3.value": { en: "20+", zh: "20+" },
+  "about.stat3.label": { en: "Years as Digital Economy Pioneer", zh: "年数字经济先驱者" },
   "about.stat4.value": { en: "50+", zh: "50+" },
   "about.stat4.label": { en: "Government Partnerships", zh: "政府级合作伙伴" },
   "about.value1.title": { en: "High-Level Exchanges", zh: "高级别交流" },
   "about.value1.desc": {
-    en: "Facilitating top-tier international exchanges in economy, trade, technology, culture, and education between governments and enterprises.",
-    zh: "促进政府与企业间在经贸、科技、文化、教育领域的高级别国际交流。",
+    en: "Facilitating top-tier international exchanges in economy, trade, technology, culture, and education between global partners.",
+    zh: "促进全球合作伙伴间在经贸、科技、文化、教育领域的高级别国际交流。",
   },
-  "about.value2.title": { en: "China Tech Globalization", zh: "中国科技出海" },
+  "about.value2.title": { en: "Tech Globalization", zh: "科技全球化" },
   "about.value2.desc": {
-    en: "Empowering Chinese technology enterprises to expand globally with strategic market entry and partnership support.",
-    zh: "助力中国科技企业全球化拓展，提供战略性市场进入与合作支持。",
+    en: "Empowering technology enterprises to expand globally with strategic market entry and partnership support.",
+    zh: "助力科技企业全球化拓展，提供战略性市场进入与合作支持。",
   },
-  "about.value3.title": { en: "Gateway to Digital China", zh: "数字中国入口" },
+  "about.value3.title": { en: "Gateway to Digital Economy", zh: "数字经济入口" },
   "about.value3.desc": {
-    en: "Connecting overseas governments and enterprises to the rapidly growing Digital China ecosystem for mutual growth.",
-    zh: "连接海外政府与企业进入高速成长的数字中国生态，实现互利共赢。",
+    en: "Connecting global partners to rapidly growing digital ecosystems for mutual growth and shared opportunities.",
+    zh: "连接全球合作伙伴进入高速成长的数字经济生态，实现互利共赢。",
   },
   "about.value4.title": { en: "Global Digital Infrastructure", zh: "全球数字基建" },
   "about.value4.desc": {
@@ -109,8 +109,8 @@ const translations: Record<string, Record<Language, string>> = {
   "contact.label": { en: "Contact Us", zh: "联系我们" },
   "contact.title": { en: "Let's Start a Conversation", zh: "让我们开始对话" },
   "contact.description": {
-    en: "Whether you're a Chinese tech enterprise seeking global expansion or an international partner looking to enter Digital China, we're here to bridge the way.",
-    zh: "无论您是寻求全球化的中国科技企业，还是希望进入数字中国的国际合作伙伴，我们都将为您搭建合作桥梁。",
+    en: "Whether you're a tech enterprise seeking global expansion or an international partner looking to tap into the digital economy, we're here to bridge the way.",
+    zh: "无论您是寻求全球化的科技企业，还是希望融入数字经济的国际合作伙伴，我们都将为您搭建合作桥梁。",
   },
   "contact.email": { en: "Email", zh: "电子邮件" },
   "contact.presence": { en: "Key Regions", zh: "重点区域" },
@@ -130,8 +130,8 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Footer
   "footer.description": {
-    en: "Bridging Digital Nations through inter-governmental technology cooperation and industrial investment. Facilitating high-level international exchanges across 100+ countries and regions.",
-    zh: "通过国家间数字科技合作与产业投资连接数字世界。促进覆盖100多个国家和地区的高级别国际交流与合作。",
+    en: "Shaping Global Value through digital technology cooperation and industrial investment. Facilitating high-level international exchanges across 100+ countries and regions.",
+    zh: "通过全球数字科技合作与产业投资塑造全球价值。促进覆盖100多个国家和地区的高级别国际交流与合作。",
   },
   "footer.company": { en: "Company", zh: "公司" },
   "footer.legal": { en: "Legal", zh: "法律" },
