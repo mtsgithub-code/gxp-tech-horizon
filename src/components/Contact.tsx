@@ -68,65 +68,6 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-card border border-border rounded-2xl p-8 lg:p-10 shadow-card">
-            <h3 className="font-display text-2xl font-semibold text-foreground mb-6">
-              {t("contact.formTitle")}
-            </h3>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid sm:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    {t("contact.name")}
-                  </label>
-                  <input
-                    type="text" id="name" name="name" value={formData.name} onChange={handleChange} required
-                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring transition-all duration-200"
-                    placeholder={t("contact.namePlaceholder")}
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    {t("contact.emailLabel")}
-                  </label>
-                  <input
-                    type="email" id="email" name="email" value={formData.email} onChange={handleChange} required
-                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring transition-all duration-200"
-                    placeholder={t("contact.emailPlaceholder")}
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="company" className="block text-sm font-medium text-foreground mb-2">
-                  {t("contact.company")}
-                </label>
-                <input
-                  type="text" id="company" name="company" value={formData.company} onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring transition-all duration-200"
-                  placeholder={t("contact.companyPlaceholder")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  {t("contact.message")}
-                </label>
-                <textarea
-                  id="message" name="message" value={formData.message} onChange={handleChange} required rows={5}
-                  className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring transition-all duration-200 resize-none"
-                  placeholder={t("contact.messagePlaceholder")}
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full px-8 py-4 bg-gradient-rose text-primary-foreground font-medium rounded-lg shadow-soft hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 flex items-center justify-center gap-2"
-              >
-                <Send size={18} />
-                {t("contact.send")}
-              </button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
