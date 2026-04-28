@@ -11,17 +11,12 @@ const Footer = () => {
       { label: t("footer.services"), href: "#services" },
       { label: t("footer.contact"), href: "#contact" },
     ],
-    legal: [
-      { label: t("footer.privacy"), href: "#" },
-      { label: t("footer.terms"), href: "#" },
-      { label: t("footer.disclaimer"), href: "#" },
-    ],
   };
 
   return (
     <footer className="bg-foreground text-background py-16">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <img src={logo} alt="GXP Investment Consulting" className="h-12 w-auto rounded-lg bg-white p-1" />
@@ -37,17 +32,6 @@ const Footer = () => {
             <ul className="space-y-4">
               {links.company.map((link) => (
                 <li key={link.href + link.label}>
-                  <a href={link.href} className="text-background/70 hover:text-background transition-colors duration-200 font-body">{link.label}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-display text-lg font-semibold mb-6">{t("footer.legal")}</h4>
-            <ul className="space-y-4">
-              {links.legal.map((link) => (
-                <li key={link.label}>
                   <a href={link.href} className="text-background/70 hover:text-background transition-colors duration-200 font-body">{link.label}</a>
                 </li>
               ))}
