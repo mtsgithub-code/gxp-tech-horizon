@@ -61,17 +61,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Key Visual */}
-          <div className="hidden lg:flex items-center justify-center animate-fade-in opacity-0 animation-delay-200">
-            <div className="relative">
-              <img
-                src={heroVisual}
-                alt="Global technology network"
-                className="w-[500px] h-auto rounded-2xl shadow-card"
-              />
-              <div className="absolute -inset-4 bg-primary/5 rounded-3xl -z-10 blur-xl" />
-            </div>
-          </div>
+          {/* Key Visual removed */}
         </div>
       </div>
 
