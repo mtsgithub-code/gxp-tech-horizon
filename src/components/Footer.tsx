@@ -59,6 +59,14 @@ const Footer = () => {
           <p className="text-background/50 text-sm font-body">
             © {currentYear} {t("footer.rights")}
           </p>
+          <a
+            href="https://beian.miit.gov.cn/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-background/50 hover:text-background text-sm transition-colors duration-200 font-body"
+          >
+            ICP备案许可证：京ICP备2026020867号-1
+          </a>
           <a href="mailto:info@gxpin.com" className="text-background/70 hover:text-background text-sm transition-colors duration-200 font-body">
             info@gxpin.com
           </a>
