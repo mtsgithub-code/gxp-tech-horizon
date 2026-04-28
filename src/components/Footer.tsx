@@ -1,4 +1,3 @@
-import { Linkedin, Twitter } from "lucide-react";
 import logo from "@/assets/gxp-logo.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -31,14 +30,6 @@ const Footer = () => {
             <p className="text-background/70 max-w-md mb-6 font-body leading-relaxed">
               {t("footer.description")}
             </p>
-            <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-background/20 flex items-center justify-center hover:bg-background/10 transition-colors duration-200" aria-label="LinkedIn">
-                <Linkedin size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-background/20 flex items-center justify-center hover:bg-background/10 transition-colors duration-200" aria-label="Twitter">
-                <Twitter size={18} />
-              </a>
-            </div>
           </div>
 
           <div>
